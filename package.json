@@ -1,0 +1,11 @@
+{
+  "name": "couch-to-5k",
+  "version": "1.0.0",
+  "description": "Remade app for Couch to 5k running program",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Calvin Cieslak",
+  "license": "ISC"
+}
