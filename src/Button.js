@@ -4,29 +4,18 @@ class Button extends Component {
     constructor() {
         super();
         this.state = {
-            isStart: true,
-            btnText: 'start'
+            isStart: true
         }
     }
 
     handleClick() {
-        if(this.state.isStart){
-            this.setState({
-                isStart: !this.state.isStart,
-                btnText: 'stop'
-            })
-        }
-        else {
-            this.setState({
-                isStart: !this.state.isStart,
-                btnText: 'start'
-            })
-        }
-
+        this.setState({
+            isStart: !this.state.isStart,
+        })
     }
 
     render() {
-        return <div className="waves-effect waves-light btn" onClick={this.handleClick.bind(this)}>{this.state.btnText}</div>;
+        return <div className="waves-effect waves-light btn" onClick={this.handleClick.bind(this)}>{this.state.isStart ? 'start' : 'stop'}</div>;
     }
 }
 
