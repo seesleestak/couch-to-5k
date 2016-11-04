@@ -1,19 +1,24 @@
 import React, { Component } from 'react';
 import './Timer.css';
+import './Button';
 
 class Timer extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            elapsed: 0,
-            timeState: 'elapsed'
+            secElapsed: 0,
+            minElapsed: 0,
+            timeState: 'elapsed',
         };
     }
 
     tick() {
-        this.setState((prevState) => ({
-            elapsed: prevState.elapsed + 1
-        }));
+        while (this.state.secElapsed < 60) {
+            this.setState((prevState) => ({
+                secElapsed: prevState.secElapsed + 1
+            }));
+        }
+
     }
 
     componentDidMount() {
@@ -27,7 +32,7 @@ class Timer extends Component {
     render() {
         return(
             <div className="Timer-field">
-                <h2 className="Time">{this.state.elapsed}</h2>
+                <h2 className="Time">{this.state.minElapsed}:{this.state.secElapsed}</h2>
                 <h5 className="Description">Time {this.state.timeState}</h5>
             </div>
         );

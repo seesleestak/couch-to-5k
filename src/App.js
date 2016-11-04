@@ -1,12 +1,14 @@
-import React, { Component } from 'react';
-import Timer from './Timer';
-import Button from './Button';
-import './App.css';
+import React, { Component } from 'react'
+import Timer from './Timer'
+import Button from './Button'
+import Header from './Header'
+import './App.css'
 
 class App extends Component {
   render() {
     return (
       <div className="App">
+        <Header />
         <Timer />
         <Button />
       </div>
@@ -14,4 +16,4 @@ class App extends Component {
   }
 }
 
-export default App;
+export default App
