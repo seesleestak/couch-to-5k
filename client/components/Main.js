@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import { Link } from 'react-router'
 import Header from './Header/Header'
 
 class Main extends Component {
@@ -7,6 +6,7 @@ class Main extends Component {
         return(
             <div>
                 <Header />
+                {React.cloneElement(this.props.children, this.props)}
             </div>
         )
     }

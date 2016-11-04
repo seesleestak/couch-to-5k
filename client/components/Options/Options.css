@@ -1,0 +1,11 @@
+body {
+    text-align: center;
+}
+
+.switch {
+    padding: 1em 0;
+}
+
+.switch h5 {
+    display: inline-block;
+}

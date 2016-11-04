@@ -7,8 +7,8 @@ class Header extends Component {
         return(
             <div>
                 <div className="cyan darken-4">
-                    <Link to="/"><i className="settings-btn material-icons">settings</i></Link>
-                    <Link><h1 className="heading-text center-align">Couch to {5}k</h1></Link>
+                    <Link to="/options/"><i className="settings-btn material-icons">settings</i></Link>
+                    <Link to="/"><h1 className="heading-text center-align">Couch to {5}k</h1></Link>
                 </div>
                 <div className="teal lighten-2"></div>
             </div>
