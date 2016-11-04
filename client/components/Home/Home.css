@@ -1,3 +1,14 @@
 body {
     text-align: center;
 }
+
+.btn i {
+    float: left;
+    padding-bottom: .15em;
+}
+
+.btn-text {
+    font-size: 1.25em;
+    display: inline;
+    padding-left: .5em;
+}

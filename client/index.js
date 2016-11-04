@@ -1,6 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 import { Router, Route, IndexRoute, browserHistory } from 'react-router'
+import Materialize from 'materialize-css'
 
 // Global styling
 import css from './Core.css'

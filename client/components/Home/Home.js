@@ -5,11 +5,21 @@ import TimerMain from '../TimerMain/TimerMain'
 class Home extends Component {
     render() {
         return (
-            <div>
-                <h3>Home page</h3>
-                <TimerMain />
+            <div className="container">
+                <div className="row">
+                    <div className="col s12 m4">
+                        <TimerMain />
+                    </div>
+                    <div className="col s12 m4">
+                        <TimerMain />
+                    </div>
+                    <div className="col s12 m4">
+                        <TimerMain />
+                    </div>
+                </div>
                 <div className="waves-effect waves-light btn">
                     <i className="material-icons">play_circle_outline</i>
+                    <div className="btn-text">Start</div>
                 </div>
             </div>
         )
