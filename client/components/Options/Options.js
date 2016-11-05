@@ -20,6 +20,13 @@ class Options extends Component {
                         <h5>Option 2</h5>
                     </label>
                 </div>
+                <div className="switch">
+                    <label>
+                        <input type="checkbox" />
+                        <span className="lever"></span>
+                        <h5>Option 3</h5>
+                    </label>
+                </div>
             </div>
         )
     }
