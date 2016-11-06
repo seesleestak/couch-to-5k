@@ -1,4 +1,14 @@
 import { createStore, compose} from 'redux'
 import { syncHistoryWithStore } from 'react-router-redux'
-import {browserHistory } from 'react-router'
+import { browserHistory } from 'react-router'
 import rootReducer from './reducers/index'
+import plan from './data/plan'
+
+const defaultState = {
+    plan
+}
+
+const store = createStore(rootReducer, defaultState);
+const history = syncHistoryWithStore(browserHistory, store)
+
+export store

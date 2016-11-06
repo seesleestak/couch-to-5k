@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import css from './Home.css'
 import TimerMain from '../TimerMain/TimerMain'
+import DayIcon from '../DayIcon/DayIcon'
 
 class Home extends Component {
     render() {
@@ -21,6 +22,8 @@ class Home extends Component {
                     <i className="material-icons">play_circle_outline</i>
                     <div className="btn-text">Start</div>
                 </div>
+
+                <DayIcon />
             </div>
         )
     }
