@@ -1,11 +1,12 @@
+/*
 .circle {
     height: 6.5em;
     width: 6.5em;
     color: white;
     font-size: 1em;
     font-weight: 800;
-    letter-spacing: .15em;
     text-align: center;
+    letter-spacing: .1em;
     background-color: #006064;
     border-color: #4db6ac;
     border-style: solid;
@@ -14,8 +15,44 @@
     -webkit-font-smoothing: antialiased;
     box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14),0 1px 5px 0 rgba(0,0,0,0.12),0 3px 1px -2px rgba(0,0,0,0.2)
 }
+*/
+.dayicon-container {
+    height: 8em;
+    width: 100%;
+}
 
-.text-container {
-    padding-top: 1.6em;
+.circle-inactive {
+    height: 6.5em;
+    width: 6.5em;
+    color: white;
+    font-size: 1em;
+    font-weight: 800;
+    background-color: #b2dfdb;
+    text-align: center;
+    letter-spacing: .1em;
+    border-radius: 50%;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14),0 1px 5px 0 rgba(0,0,0,0.12),0 3px 1px -2px rgba(0,0,0,0.2)
+}
+
+.text-container-inactive {
+    padding-top: 1.9em;
+    padding-left: .25em;
+}
+
+.circle-active {
+    height: 6.5em;
+    width: 6.5em;
+    color: white;
+    font-size: 1em;
+    font-weight: 800;
+    background-color: #4db6ac;
+    text-align: center;
+    letter-spacing: .1em;
+    border-radius: 50%;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14),0 1px 5px 0 rgba(0,0,0,0.12),0 3px 1px -2px rgba(0,0,0,0.2)
+}
+
+.text-container-active {
+    padding-top: 1.9em;
     padding-left: .25em;
 }
