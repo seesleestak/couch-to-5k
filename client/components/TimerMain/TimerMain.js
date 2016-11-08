@@ -5,7 +5,7 @@ class TimerMain extends Component {
     constructor(props) {
         super()
         this.state = {
-            secondsRemaining: 10
+            secondsRemaining: 0
         }
     }
     getInitialState() {

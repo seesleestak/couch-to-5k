@@ -1,7 +1,10 @@
 import React, { Component } from 'react'
 import css from './Home.css'
+
+// Import components
 import TimerMain from '../TimerMain/TimerMain'
 import DayIcon from '../DayIcon/DayIcon'
+import Button from '../Button/Button.js'
 
 class Home extends Component {
     render() {
@@ -18,10 +21,7 @@ class Home extends Component {
                         <TimerMain />
                     </div>
                 </div>
-                <div className="waves-effect waves-light btn">
-                    <i className="material-icons">play_circle_outline</i>
-                    <div className="btn-text">Start</div>
-                </div>
+                <Button />
 
                 <DayIcon />
             </div>
