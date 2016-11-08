@@ -14,6 +14,14 @@ function pauseTimer(isPlay) {
     }
 }
 
+// Day change
+function dayChange(dayId) {
+    return {
+        type: "DAY_CHANGE",
+        dayId
+    }
+}
+
 // Reset Day
 function resetDay(reset) {
     return {

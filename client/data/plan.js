@@ -1,8 +1,9 @@
 const plan = [
     {
-        id: 0,
+        dayId: 0,
         week: 1,
         day: 1,
+        description: "Five minute warmup walk. Alternate 60 seconds of jogging with 90 seconds of walking for a total of 20 minutes.",
         secSegment: [
             warmup: 300,
             run: 60,
@@ -20,9 +21,10 @@ const plan = [
         ]
     },
     {
-        id: 1,
+        dayId: 1,
         week: 1,
         day: 2,
+        description: "Five minute warmup walk. Alternate 60 seconds of jogging with 90 seconds of walking for a total of 20 minutes.",
         secSegment: [
             warmup: 300,
             run: 60,
@@ -40,9 +42,10 @@ const plan = [
         ]
     },
     {
-        id: 2,
+        dayId: 2,
         week: 1,
         day: 3,
+        description: "Five minute warmup walk. Alternate 60 seconds of jogging with 90 seconds of walking for a total of 20 minutes.",
         secSegment: [
             warmup: 300,
             run: 60,
@@ -60,9 +63,10 @@ const plan = [
         ]
     },
     {
-        id: 3,
+        dayId: 3,
         week: 2,
         day: 1,
+        description: "Five minute warmup walk. Alternate 90 seconds of jogging with 60 seconds of walking for a total of 20 minutes.",
         secSegment: [
             warmup: 300,
             run: 90,
@@ -80,9 +84,10 @@ const plan = [
         ]
     },
     {
-        id: 4,
+        dayId: 4,
         week: 2,
         day: 2,
+        description: "Five minute warmup walk. Alternate 90 seconds of jogging with 60 seconds of walking for a total of 20 minutes.",
         secSegment: [
             warmup: 300,
             run: 90,
@@ -100,9 +105,10 @@ const plan = [
         ]
     },
     {
-        id: 5,
+        dayId: 5,
         week: 2,
         day: 3,
+        description: "Five minute warmup walk. Alternate 90 seconds of jogging with 60 seconds of walking for a total of 20 minutes".,
         secSegment: [
             warmup: 300,
             run: 90,
@@ -120,9 +126,10 @@ const plan = [
         ]
     },
     {
-        id: 6,
+        dayId: 6,
         week: 3,
         day: 1,
+        description: "Five minute warmup walk. Two rounds of 90 seconds jogging, 90 seconds walking, 3 minutes jogging, and 3 minutes walking.",
         secSegment: [
             warmup: 300,
             run: 90,
@@ -136,9 +143,10 @@ const plan = [
         ]
     },
     {
-        id: 7,
+        dayId: 7,
         week: 3,
         day: 2,
+        description: "Five minute warmup walk. Two rounds of 90 seconds jogging, 90 seconds walking, 3 minutes jogging, and 3 minutes walking.",
         secSegment: [
             warmup: 300,
             run: 90,
@@ -152,9 +160,10 @@ const plan = [
         ]
     },
     {
-        id: 8,
+        dayId: 8,
         week: 3,
         day: 3,
+        description: "Five minute warmup walk. Two rounds of 90 seconds jogging, 90 seconds walking, 3 minutes jogging, and 3 minutes walking.",
         secSegment: [
             warmup: 300,
             run: 90,
@@ -168,9 +177,10 @@ const plan = [
         ]
     },
     {
-        id: 9,
+        dayId: 9,
         week: 4,
         day: 1,
+        description: "Five minute warmup walk. Jog 3 minutes, walk 90 seconds, jog 5 minutes, walk 2 1/2 minutes, jog 3 minutes, walk 90 seconds, and jog 5 minutes.",
         secSegment: [
             warmup: 300,
             run: 180,
@@ -183,9 +193,10 @@ const plan = [
         ]
     },
     {
-        id: 10,
+        dayId: 10,
         week: 4,
         day: 2,
+        description: "Five minute warmup walk. Jog 3 minutes, walk 90 seconds, jog 5 minutes, walk 2 1/2 minutes, jog 3 minutes, walk 90 seconds, and jog 5 minutes.",
         secSegment: [
             warmup: 300,
             run: 180,
@@ -198,9 +209,10 @@ const plan = [
         ]
     },
     {
-        id: 11,
+        dayId: 11,
         week: 4,
         day: 3,
+        description: "Five minute warmup walk. Jog 3 minutes, walk 90 seconds, jog 5 minutes, walk 2 1/2 minutes, jog 3 minutes, walk 90 seconds, and jog 5 minutes.",
         secSegment: [
             warmup: 300,
             run: 180,
@@ -213,9 +225,10 @@ const plan = [
         ]
     },
     {
-        id: 12,
+        dayId: 12,
         week: 5,
         day: 1,
+        description: "Five minute warmup walk. Jog 5 minutes, walk 3 minutes, jog 5 minutes, walk 3 minutes, and jog 5 minutes.",
         secSegment: [
             warmup: 300,
             run: 300,
@@ -226,9 +239,10 @@ const plan = [
         ]
     },
     {
-        id: 13,
+        dayId: 13,
         week: 5,
         day: 2,
+        description: "Five minute warmup walk. Jog 8 minutes, walk 5 minutes, and jog 8 minutes."
         secSegment: [
             warmup: 300,
             run: 480,
@@ -237,18 +251,20 @@ const plan = [
         ]
     },
     {
-        id: 14,
+        dayId: 14,
         week: 5,
         day: 3,
+        description: "Five minute warmup walk. Jog 20 minutes.",
         secSegment: [
             warmup: 300,
             run: 1200
         ]
     },
     {
-        id: 15,
+        dayId: 15,
         week: 6,
         day: 1,
+        description: "Five minute warmup walk. Jog 5 minutes, walk 3 minutes, jog 8 minutes, walk 3 minutes, and jog 5 minutes.",
         secSegment: [
             warmup: 300,
             run: 300,
@@ -259,9 +275,10 @@ const plan = [
         ]
     },
     {
-        id: 16,
+        dayId: 16,
         week: 6,
         day: 2,
+        description: "Five minute warmup walk. Jog 10 minutes, walk 3 minutes, and jog 10 minutes.",
         secSegment: [
             warmup: 300,
             run: 600,
@@ -270,90 +287,100 @@ const plan = [
         ]
     },
     {
-        id: 17,
+        dayId: 17,
         week: 6,
         day: 3,
+        description: "Five minute warmup walk. Jog 22 minutes.",
         secSegment: [
             warmup: 300,
             run: 1320
         ]
     },
     {
-        id: 18,
+        dayId: 18,
         week: 7,
         day: 1,
+        description: "Five minutes warmup walk. Jog 25 minutes.",
         secSegment: [
             warmup: 300,
             run: 1500
         ]
     },
     {
-        id: 19,
+        dayId: 19,
         week: 7,
         day: 2,
+        description: "Five minutes warmup walk. Jog 25 minutes.",
         secSegment: [
             warmup: 300,
             run: 1500
         ]
     },
     {
-        id: 20,
+        dayId: 20,
         week: 7,
         day: 3,
+        description: "Five minutes warmup walk. Jog 25 minutes.",
         secSegment: [
             warmup: 300,
             run: 1500
         ]
     },
     {
-        id: 21,
+        dayId: 21,
         week: 8,
         day: 1,
+        description: "Five minutes warmup walk. Jog 28 minutes.",
         secSegment: [
             warmup: 300,
             run: 1680
         ]
     },
     {
-        id: 22,
+        dayId: 22,
         week: 8,
         day: 2,
+        description: "Five minutes warmup walk. Jog 28 minutes.",
         secSegment: [
             warmup: 300,
             run: 1680
         ]
     },
     {
-        id: 23,
+        dayId: 23,
         week: 8,
         day: 3,
+        description: "Five minutes warmup walk. Jog 28 minutes.",
         secSegment: [
             warmup: 300,
             run: 1680
         ]
     },
     {
-        id: 24,
+        dayId: 24,
         week: 9,
         day: 1,
+        description: "Five minutes warmup walk. Jog 30 minutes.",
         secSegment: [
             warmup: 300,
             run: 1800
         ]
     },
     {
-        id: 25,
+        dayId: 25,
         week: 9,
         day: 2,
+        description: "Five minutes warmup walk. Jog 30 minutes.",
         secSegment: [
             warmup: 300,
             run: 1800
         ]
     },
     {
-        id: 26,
+        dayId: 26,
         week: 9,
         day: 3,
+        description: "Five minutes warmup walk. Jog 30 minutes.",
         secSegment: [
             warmup: 300,
             run: 1800
