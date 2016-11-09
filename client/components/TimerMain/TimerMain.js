@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import css from './TimerMain.css'
 
 class TimerMain extends Component {
+    /*
     constructor(props) {
         super()
         this.state = {
@@ -29,11 +30,12 @@ class TimerMain extends Component {
     componentWillUnmount() {
         clearInterval(this.interval)
     }
+    */
 
     render() {
         return (
             <div>
-                <h2>{this.state.secondsRemaining}</h2>
+                <h2>Timer here</h2>
                 <h4>Time elapsed</h4>
             </div>
         )

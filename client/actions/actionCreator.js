@@ -1,5 +1,5 @@
 // Play timer
-function playTimer(isPlay) {
+export function playTimer(isPlay) {
     return {
         type: "PLAY_TIMER",
         isPlay
@@ -7,7 +7,7 @@ function playTimer(isPlay) {
 }
 
 // Pause timer
-function pauseTimer(isPlay) {
+export function pauseTimer(isPlay) {
     return {
         type: "PAUSE_TIMER",
         isPlay
@@ -15,7 +15,7 @@ function pauseTimer(isPlay) {
 }
 
 // Day change
-function dayChange(dayId) {
+export function dayChange(dayId) {
     return {
         type: "DAY_CHANGE",
         dayId
@@ -23,15 +23,15 @@ function dayChange(dayId) {
 }
 
 // Reset Day
-function resetDay(reset) {
+export function resetDay(dayId) {
     return {
         type: "RESET_DAY",
-        reset
+        dayId
     }
 }
 
 // Option change
-function optionsChange(optionId, optionStatus) {
+export function optionsChange(optionId, optionStatus) {
     return {
         type: "OPTION_CHANGE",
         optionId,

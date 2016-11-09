@@ -1,6 +1,9 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 import { Router, Route, IndexRoute, browserHistory } from 'react-router'
+import { Provider } from 'react-redux'
+import store, { history } from './store'
+
 import Materialize from 'materialize-css'
 
 // Global styling
@@ -12,12 +15,14 @@ import Home from './components/Home/Home'
 import Options from './components/Options/Options'
 
 const router = (
-    <Router history={browserHistory}>
-        <Route path="/" component={Main}>
-            <IndexRoute component={Home}></IndexRoute>
-            <Route path="/options/" component={Options}></Route>
-        </Route>
-    </Router>
+    <Provider store={store}>
+        <Router history={browserHistory}>
+            <Route path="/" component={Main}>
+                <IndexRoute component={Home}></IndexRoute>
+                <Route path="/options/" component={Options}></Route>
+            </Route>
+        </Router>
+    </Provider>
 )
 
 ReactDOM.render(

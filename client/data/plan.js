@@ -4,22 +4,23 @@ const plan = [
         week: 1,
         day: 1,
         description: "Five minute warmup walk. Alternate 60 seconds of jogging with 90 seconds of walking for a total of 20 minutes.",
-        secSegment: [
+        secSegment: {
             warmup: 300,
-            run: 60,
-            walk: 90,
-            run: 60,
-            walk: 90,
-            run: 60,
-            walk: 90,
-            run: 60,
-            walk: 90,
-            run: 60,
-            walk: 90,
-            run: 60,
-            walk: 90
-        ]
+            run1: 60,
+            walk1: 90,
+            run2: 60,
+            walk2: 90,
+            run3: 60,
+            walk3: 90,
+            run4: 60,
+            walk4: 90,
+            run5: 60,
+            walk5: 90,
+            run6: 60,
+            walk6: 90
+        }
     },
+    /*
     {
         dayId: 1,
         week: 1,
@@ -108,7 +109,7 @@ const plan = [
         dayId: 5,
         week: 2,
         day: 3,
-        description: "Five minute warmup walk. Alternate 90 seconds of jogging with 60 seconds of walking for a total of 20 minutes".,
+        description: "Five minute warmup walk. Alternate 90 seconds of jogging with 60 seconds of walking for a total of 20 minutes.",
         secSegment: [
             warmup: 300,
             run: 90,
@@ -242,7 +243,7 @@ const plan = [
         dayId: 13,
         week: 5,
         day: 2,
-        description: "Five minute warmup walk. Jog 8 minutes, walk 5 minutes, and jog 8 minutes."
+        description: "Five minute warmup walk. Jog 8 minutes, walk 5 minutes, and jog 8 minutes.",
         secSegment: [
             warmup: 300,
             run: 480,
@@ -386,4 +387,5 @@ const plan = [
             run: 1800
         ]
     }
+    */
 ]

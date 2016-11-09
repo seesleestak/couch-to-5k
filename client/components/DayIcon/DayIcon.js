@@ -13,46 +13,6 @@ class DayIcon extends Component {
                         </div>
                     </div>
                 </div>
-                <div className="col s2 m2">
-                    <div className="circle-inactive">
-                        <div className="text-container-inactive">
-                            <div>WEEK 1</div>
-                            <div>DAY 2</div>
-                        </div>
-                    </div>
-                </div>
-                <div className="col s2 m2">
-                    <div className="circle-inactive">
-                        <div className="text-container-inactive">
-                            <div>WEEK 1</div>
-                            <div>DAY 3</div>
-                        </div>
-                    </div>
-                </div>
-                <div className="col s2 m2">
-                    <div className="circle-inactive">
-                        <div className="text-container-inactive">
-                            <div>WEEK 2</div>
-                            <div>DAY 1</div>
-                        </div>
-                    </div>
-                </div>
-                <div className="col s2 m2">
-                    <div className="circle-inactive">
-                        <div className="text-container-inactive">
-                            <div>WEEK 2</div>
-                            <div>DAY 2</div>
-                        </div>
-                    </div>
-                </div>
-                <div className="col s2 m2">
-                    <div className="circle-inactive">
-                        <div className="text-container-inactive">
-                            <div>WEEK 2</div>
-                            <div>DAY 3</div>
-                        </div>
-                    </div>
-                </div>
             </div>
         )
     }
