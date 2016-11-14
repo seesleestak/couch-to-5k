@@ -16,7 +16,7 @@ import Options from './components/Options/Options'
 
 const router = (
     <Provider store={store}>
-        <Router history={browserHistory}>
+        <Router history={history}>
             <Route path="/" component={Main}>
                 <IndexRoute component={Home}></IndexRoute>
                 <Route path="/options/" component={Options}></Route>

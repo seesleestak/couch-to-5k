@@ -7,6 +7,6 @@ h2, h4 {
     cursor: default;
 }
 
-h2.timer-main {
-    font-size: 7em;
+h2.timer-aux {
+    font-size: 4em;
 }

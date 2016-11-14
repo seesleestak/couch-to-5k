@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
-import css from './TimerMain.css'
+import css from './TimerAux.css'
 
-class TimerMain extends Component {
+class TimerAux extends Component {
     // getInitialState() {
     //     return {
     //         secondsRemaining: 0
@@ -27,11 +27,11 @@ class TimerMain extends Component {
     render() {
         return (
             <div>
-                <h2 className="timer-main">Timer</h2>
+                <h2 className="timer-aux">Timer</h2>
                 <h4>Time elapsed</h4>
             </div>
         )
     }
 }
 
-export default TimerMain
+export default TimerAux
