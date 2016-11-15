@@ -10,5 +10,5 @@ class DayIconGrid extends Component {
         )
     }
 }
-// <div className="col s2 m2"></div>
+
 export default DayIconGrid
