@@ -4,15 +4,14 @@ import css from './DayIcon.css'
 class DayIcon extends Component {
     render() {
         return (
-            <div className="row dayicon-container">
-                <div className="col s2 m2">
-                    <div className="circle-active">
+            <div className="dayicon-container">
+
+                    <div className={this.props.plan[this.props.i].isActive ? "circle-active" : "circle-inactive"}>
                         <div className="text-container-active">
-                            <div>WEEK 1</div>
-                            <div>DAY 1</div>
+                            <div>WEEK {this.props.plan[this.props.i].week}</div>
+                            <div>DAY {this.props.plan[this.props.i].day}</div>
                         </div>
                     </div>
-                </div>
             </div>
         )
     }

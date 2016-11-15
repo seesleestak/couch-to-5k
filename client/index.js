@@ -10,14 +10,14 @@ import Materialize from 'materialize-css'
 import css from './Core.css'
 
 // Components
-import Main from './components/Main'
+import App from './components/App'
 import Home from './components/Home/Home'
 import Options from './components/Options/Options'
 
 const router = (
     <Provider store={store}>
-        <Router history={history}>
-            <Route path="/" component={Main}>
+        <Router history={browserHistory}>
+            <Route path="/" component={App}>
                 <IndexRoute component={Home}></IndexRoute>
                 <Route path="/options/" component={Options}></Route>
             </Route>

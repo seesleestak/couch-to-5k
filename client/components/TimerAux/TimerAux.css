@@ -1,5 +1,5 @@
-h4 {
-    font-size: 1.5em;
+h4.timer-aux-description {
+    font-size: 1.3em;
     font-weight: 400;
 }
 
@@ -8,5 +8,5 @@ h2, h4 {
 }
 
 h2.timer-aux {
-    font-size: 4em;
+    font-size: 3.5em;
 }

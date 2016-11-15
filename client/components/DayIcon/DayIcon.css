@@ -18,9 +18,9 @@
 */
 
 .dayicon-container {
+    display: inline-block;
     height: 8em;
-    width: 100%;
-    padding: 2em 0;
+    padding: 2em 2em;
 }
 
 .circle-inactive {

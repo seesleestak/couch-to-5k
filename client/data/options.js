@@ -12,3 +12,5 @@ const options = [
         status: false
     }
 ]
+
+export default options

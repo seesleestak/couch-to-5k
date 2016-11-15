@@ -12,3 +12,9 @@ body {
     display: inline;
     padding-left: .5em;
 }
+
+.description-heading {
+    font-size: 3em;
+    font-weight: 200;
+    color: rgb(147, 147, 147);
+}
