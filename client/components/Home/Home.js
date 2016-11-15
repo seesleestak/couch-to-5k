@@ -29,7 +29,7 @@ class Home extends Component {
                     </div>
                 </div>
 
-                <Button />
+                <Button {...this.props}/>
 
                 <DayIconGrid {...this.props}/>
             </div>

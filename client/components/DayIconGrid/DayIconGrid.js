@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import DayIcon from '../DayIcon/DayIcon'
+import css from './DayIconGrid.css'
 
 class DayIconGrid extends Component {
     render(props) {

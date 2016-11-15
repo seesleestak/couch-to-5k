@@ -6,7 +6,8 @@ import Main from './Main'
 function mapStateToProps(state) {
     return {
         plan: state.plan,
-        options: state.options
+        options: state.options,
+        home: state.home
     }
 }
 
