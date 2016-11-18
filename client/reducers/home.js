@@ -1,6 +1,5 @@
 function home(state = [], action) {
-    console.log(state, action)
-    return state
+    return state;
 }
 
-export default home
+export default home;

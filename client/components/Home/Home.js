@@ -8,6 +8,12 @@ import DayIconGrid from '../DayIconGrid/DayIconGrid'
 import Button from '../Button/Button.js'
 
 class Home extends Component {
+    // buttonHandler() {
+    //     if(this.props.home.isPlay) {
+    //         return
+    //     }
+    // }
+
     render() {
         return (
             <div className="container">

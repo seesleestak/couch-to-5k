@@ -14,15 +14,15 @@ export function pauseTimer(isPlay) {
     }
 }
 
-// Day change
-export function dayChange(dayId) {
+// Set active day
+export function setActive(dayId) {
     return {
-        type: "DAY_CHANGE",
+        type: "SET_ACTIVE",
         dayId
     }
 }
 
-// Reset Day
+// Reset day
 export function resetDay(dayId) {
     return {
         type: "RESET_DAY",
@@ -31,10 +31,9 @@ export function resetDay(dayId) {
 }
 
 // Option change
-export function optionsChange(optionId, optionStatus) {
+export function optionsChange(optionId) {
     return {
         type: "OPTION_CHANGE",
-        optionId,
-        optionStatus
+        optionId
     }
 }

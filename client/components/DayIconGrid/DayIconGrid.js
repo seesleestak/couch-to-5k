@@ -6,7 +6,7 @@ class DayIconGrid extends Component {
     render(props) {
         return(
             <div className="dayicon-grid">
-                {this.props.plan.map((dayId, i) => <DayIcon {...this.props} key={i} i={i}/>)}
+                {this.props.plan.map((dayId, i) => <DayIcon {...this.props} key={i} i={i} dayId={dayId} />)}
             </div>
         )
     }
