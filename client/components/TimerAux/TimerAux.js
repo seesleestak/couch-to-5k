@@ -19,7 +19,7 @@ class TimerAux extends Component {
 
     componentDidMount() {
         this.setState({secondsRemaining: this.props.secondsRemaining})
-        this.interval = setInterval(() => this.tick(), 1000)
+        // this.interval = setInterval(() => this.tick(), 1000)
     }
 
     componentWillUnmount() {

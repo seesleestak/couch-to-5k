@@ -15,10 +15,10 @@ export function pauseTimer(isPlay) {
 }
 
 // Set active day
-export function setActive(dayId) {
+export function setActive(index) {
     return {
         type: "SET_ACTIVE",
-        dayId
+        index
     }
 }
 
