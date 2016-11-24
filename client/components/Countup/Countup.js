@@ -26,8 +26,15 @@ class Countup extends Component {
     }
 
     render() {
+        let minutes = Math.floor(this.state.secondsElapsed / 60);
+        let seconds = this.state.secondsElapsed - minutes * 60;
+        let output = "";
+
+        output += "" + minutes + ":" + (seconds < 10 ? "0" : "");
+        output += "" + seconds;
+
         return (
-            <h2 className={this.props.className}>{this.state.secondsElapsed}</h2>
+            <h2 className={this.props.className}>{output}</h2>
         )
     }
 }
