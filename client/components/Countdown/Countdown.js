@@ -17,7 +17,7 @@ class Countdown extends Component {
     }
 
     componentDidMount() {
-        this.setState({secondsRemaining: this.props.secondsRemaining})
+        this.setState({secondsRemaining: this.props.secondsInput})
         // if (this.props.isPlay) {
         this.interval = setInterval(() => this.tick(), 1000)
         // }

@@ -11,14 +11,14 @@ class Countup extends Component {
           secondsElapsed: prevState.secondsElapsed + 1
         }))
 
-        if (this.state.secondsElapsed <= 0) {
+        if (this.state.secondsElapsed >= this.props.secondsInput) {
             clearInterval(this.interval);
         }
     }
 
     componentDidMount() {
-        this.setState({secondsRemaining: this.props.secondsElapsed})
-        // this.interval = setInterval(() => this.tick(), 1000)
+        this.setState({secondsElapsed: this.state.secondsElapsed})
+        this.interval = setInterval(() => this.tick(), 1000)
     }
 
     componentWillUnmount() {
