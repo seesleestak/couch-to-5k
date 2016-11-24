@@ -3,7 +3,7 @@ const plan = [
         dayId: 0,
         week: 1,
         day: 1,
-        isActive: true,
+        isActive: false,
         description: "Five minute warmup walk. Alternate 60 seconds of jogging with 90 seconds of walking for a total of 20 minutes.",
         secSegment: [300, 60, 90, 60, 90, 60, 90, 60, 90, 60, 90, 60, 90, 240]
     },

@@ -23,15 +23,15 @@ class Home extends Component {
                 </div>
                 <div className="row">
                     <div className="col s12">
-                        <TimerMain secondsRemaining="10" />
+                        <TimerMain secondsRemaining="62" />
                     </div>
                 </div>
                 <div className="row">
                     <div className="col m6 push-m5 s12">
-                        <TimerAux secondsRemaining="5" />
+                        <TimerAux secondsRemaining="0" />
                     </div>
                     <div className="col m6 pull-m5 s12">
-                        <TimerAux secondsRemaining="5" />
+                        <TimerAux secondsRemaining="0" />
                     </div>
                 </div>
 

@@ -18,7 +18,9 @@ class Countdown extends Component {
 
     componentDidMount() {
         this.setState({secondsRemaining: this.props.secondsRemaining})
-        // this.interval = setInterval(() => this.tick(), 1000)
+        // if (this.props.isPlay) {
+        this.interval = setInterval(() => this.tick(), 1000)
+        // }
     }
 
     componentWillUnmount() {
@@ -26,8 +28,15 @@ class Countdown extends Component {
     }
 
     render() {
+        let minutes = Math.floor(this.state.secondsRemaining / 60);
+        let seconds = this.state.secondsRemaining - minutes * 60;
+        let output = "";
+
+        output += "" + minutes + ":" + (seconds < 10 ? "0" : "");
+        output += "" + seconds;
+
         return (
-            <h2 className={this.props.className}>{this.state.secondsRemaining}</h2>
+            <h2 className={this.props.className}>{output}</h2>
         )
     }
 }
